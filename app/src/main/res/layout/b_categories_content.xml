@@ -7,7 +7,7 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     tools:context="com.shopper.shopper.B_Categories_Content">
 
-    <include layout="@layout/toolbar"/>
+    <include layout="@layout/a_homepage_toolbar"/>
 
     <com.shopper.shopper.StickyScrollView
         android:layout_width="match_parent"

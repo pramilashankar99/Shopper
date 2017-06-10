@@ -12,15 +12,15 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/homepage_bg">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0.5dp"
-        android:layout_height="70dp"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/indicator_corner_bg" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0.5dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/indicator_corner_bg" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,18 +31,18 @@
         android:layout_alignParentStart="true"
         android:background="@drawable/indicator_corner_bg" />
 
-    <Button
-        android:id="@+id/Btn_StoreChange"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="150dp"
-        android:background="null"
-        android:text="Change Store" />
+        <Button
+            android:id="@+id/Btn_StoreChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:background="null"
+            android:text="Change Store" />
 
     <TextView
         android:id="@+id/textView"
@@ -53,91 +53,90 @@
         android:layout_marginBottom="48dp"
         android:background="@drawable/indicator_corner_bg" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="175dp"
-        android:layout_height="90dp"
-        android:layout_above="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
 
 
-        <customfonts.MyTextViewBold
-            android:id="@+id/slippers1"
-            android:layout_width="match_parent"
+            <customfonts.MyTextViewBold
+                android:id="@+id/slippers1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.16"
+                android:letterSpacing="0.03"
+                android:paddingLeft="15dp"
+                android:text="DELIVERY BY"
+                android:textColor="@color/text"
+                android:textSize="@dimen/categories"
+                tools:ignore="RtlSymmetry" />
+
+            <customfonts.MyTextViewMedium
+                android:id="@+id/deliverytiming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="Tomorrow, 10:00PM"
+                android:textColor="@color/text"
+                android:textSize="@dimen/title"
+                tools:ignore="RtlSymmetry" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView2"
+            android:orientation="vertical">
+
+            <customfonts.MyTextViewBold
+                android:id="@+id/freedeliveryabove1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.01"
+                android:letterSpacing="0.03"
+                android:paddingLeft="15dp"
+                android:text="FREE DELIVERY ABOVE"
+                android:textColor="@color/text"
+                android:textSize="@dimen/categories"
+                tools:ignore="RtlSymmetry" />
+
+            <customfonts.MyTextViewMedium
+                android:id="@+id/freedeliveryabove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:gravity="left"
+                android:paddingLeft="15dp"
+                android:text="Rs. 500"
+                android:textColor="@color/text"
+                android:textSize="@dimen/title"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.60"
-            android:letterSpacing="0.03"
-            android:paddingLeft="15dp"
-            android:text="DELIVERY BY"
-            android:textColor="@color/text"
-            android:textSize="@dimen/categories"
-            tools:ignore="RtlSymmetry" />
-
-        <customfonts.MyTextViewMedium
-            android:id="@+id/deliverytiming"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/marginleft_right"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:paddingLeft="15dp"
-            android:text="Tomorrow, 10:00PM"
-            android:textColor="@color/text"
-            android:textSize="@dimen/title"
-            tools:ignore="RtlSymmetry" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="175dp"
-        android:layout_height="90dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView2"
-        android:orientation="vertical">
-
-        <customfonts.MyTextViewBold
-            android:id="@+id/freedeliveryabove1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.02"
-            android:letterSpacing="0.03"
-            android:paddingLeft="15dp"
-            android:text="FREE DELIVERY ABOVE"
-            android:textColor="@color/text"
-            android:textSize="@dimen/categories"
-            tools:ignore="RtlSymmetry" />
-
-        <customfonts.MyTextViewMedium
-            android:id="@+id/freedeliveryabove"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.04"
-            android:gravity="left"
-            android:paddingLeft="15dp"
-            android:text="Rs. 500"
-            android:textColor="@color/text"
-            android:textSize="@dimen/title"
-            tools:ignore="RtlSymmetry" />
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="19dp"
-        android:layout_marginLeft="23dp"
-        android:layout_marginStart="23dp"
-        app:srcCompat="@drawable/cart" />
+            android:layout_above="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            app:srcCompat="@drawable/cart" />
 
     <TextView
         android:id="@+id/textView4"

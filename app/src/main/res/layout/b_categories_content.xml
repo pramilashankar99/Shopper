@@ -22,26 +22,9 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp"
+                android:layout_height="wrap_content"
                 android:tag="sticky">
-
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="190dp"
-                    android:src="@drawable/apple"
-                    android:scaleType="centerCrop"/>
-
-                <customfonts.MyTextView
-                    android:id="@+id/title"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:text="FRESH"
-                    android:textColor="@color/white"
-                    android:textSize="26dp"/>
-
+                <include layout="@layout/b_categories_store_view"/>
 
             </FrameLayout>
 

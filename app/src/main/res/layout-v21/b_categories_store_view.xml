@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SuperStore_Categorie"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/homepage_bg">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0.5dp"
+        android:layout_height="38dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/indicator_corner_bg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/indicator_corner_bg"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/Btn_StoreChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="null"
+        android:text="Change Store"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignBottom="@+id/Btn_StoreChange"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/indicator_corner_bg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+
+        <customfonts.MyTextViewBold
+            android:id="@+id/slippers1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="0.03"
+            android:paddingLeft="15dp"
+            android:text="@string/delivery_by"
+            android:textColor="@color/text"
+            android:textSize="@dimen/categories"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <customfonts.MyTextViewMedium
+            android:id="@+id/deliverytiming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:text="@string/tomorrow_10_00pm"
+            android:textColor="@color/text"
+            android:textSize="@dimen/title"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView2"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+        <customfonts.MyTextViewBold
+            android:id="@+id/freedeliveryabove1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="0.03"
+            android:paddingLeft="15dp"
+            android:text="@string/free_delivery_above"
+            android:textColor="@color/text"
+            android:textSize="@dimen/categories"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <customfonts.MyTextViewMedium
+            android:id="@+id/freedeliveryabove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:gravity="left"
+            android:paddingLeft="15dp"
+            android:text="@string/rs_500"
+            android:textColor="@color/text"
+            android:textSize="@dimen/title"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        app:srcCompat="@drawable/cart"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:fontFamily="sans-serif"
+        android:text="@string/super_store_gurgoan"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="null"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    </RelativeLayout>
+
+</RelativeLayout>

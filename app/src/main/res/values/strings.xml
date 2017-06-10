@@ -8,4 +8,9 @@
     <string name="personal">Personal</string>
     <string name="home_care">Home Care</string>
     <string name="grocery">Grocery</string>
+    <string name="delivery_by">DELIVERY BY</string>
+    <string name="free_delivery_above">FREE DELIVERY ABOVE</string>
+    <string name="rs_500">Rs. 500</string>
+    <string name="super_store_gurgoan">Super Store, Gurgoan</string>
+    <string name="tomorrow_10_00pm">Tomorrow, 10:00PM</string>
 </resources>

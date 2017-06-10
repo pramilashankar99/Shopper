@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+
+    <style name="Item.Top">
+        <item name="android:background">@color/top_item</item>
+    </style>
+
+    <style name="Item.Bottom">
+        <item name="android:background">@color/bottom_item</item>
+    </style>
+
+    <style name="Item.Bottom.Alt">
+        <item name="android:background">@color/bottom_item_alt</item>
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+         android:paddingLeft="2dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="2dp">
+
+        <ImageView
+            android:id="@+id/Shops_near_you_image"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/offer_img"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+
+            <customfonts.MyTextViewMedium
+                android:id="@+id/rest_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Hotel Surya"
+                android:textColor="@color/text"
+                android:textSize="@dimen/title" />
+
+
+            <customfonts.MyTextViewRegular
+                android:id="@+id/condi_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:gravity="left"
+                android:lineSpacingExtra="1dp"
+                android:maxLines="2"
+                android:text="On Billing Ammount"
+                android:textColor="@color/sub_text"
+                android:textSize="@dimen/categories" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

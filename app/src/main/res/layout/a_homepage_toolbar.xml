@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/homepage_bg"
+    android:layout_margin="0dp"
+    android:contentInsetLeft="10dp"
+    android:contentInsetRight="10dp"
+    android:contentInsetStart="10dp"
+    android:minHeight="?attr/actionBarSize"
+    android:padding="0dp"
+    app:contentInsetLeft="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetStart="10dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:padding="6dp"
+        android:src="@drawable/menu_icon" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="6dp"
+        android:src="@drawable/cart" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="6dp"
+        android:src="@drawable/search" />
+
+
+    <customfonts.MyTextViewBold
+        android:id="@+id/eshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Shoper" />
+
+</android.support.v7.widget.Toolbar>
+
+

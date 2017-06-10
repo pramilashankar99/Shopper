@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shopper.shopper.B_Categories_Content">
+
+    <include layout="@layout/toolbar"/>
+
+    <com.shopper.shopper.StickyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:tag="sticky">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:src="@drawable/apple"
+                    android:scaleType="centerCrop"/>
+
+                <customfonts.MyTextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="FRESH"
+                    android:textColor="@color/white"
+                    android:textSize="26dp"/>
+
+
+            </FrameLayout>
+
+            <customfonts.CustomTabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                custom:tabTextColor="@color/title"
+                custom:tabSelectedTextColor="@color/title"
+                app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                app:tabIndicatorColor="@color/title"
+                app:tabIndicatorHeight="2dp"
+                android:background="#f5f6fb"
+                app:tabMode="scrollable"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:tag="sticky"
+                />
+
+            <com.shopper.shopper.ScrollingViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:fillViewport="true"/>
+
+        </LinearLayout>
+
+
+    </com.shopper.shopper.StickyScrollView>
+
+
+</RelativeLayout>

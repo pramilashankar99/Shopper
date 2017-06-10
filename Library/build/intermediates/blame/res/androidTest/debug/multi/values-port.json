@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/values-port/values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 55,
+                        "endOffset": 331
+                    }
+                }
+            }
+        ]
+    }
+]

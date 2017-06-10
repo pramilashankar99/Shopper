@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/values-v18/values-v18.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 48,
+                        "endOffset": 324
+                    }
+                }
+            }
+        ]
+    }
+]

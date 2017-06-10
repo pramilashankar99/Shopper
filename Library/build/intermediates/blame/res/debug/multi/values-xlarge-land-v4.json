@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/values-xlarge-land/values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 63,
+                        "endOffset": 347
+                    }
+                }
+            }
+        ]
+    }
+]

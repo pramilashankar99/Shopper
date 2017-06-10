@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <com.shopper.shopper.ObservableScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"/>
+            <!--********TOP_FIX_IMG**********-->
+
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                custom:pager_animation="Default"
+                custom:auto_cycle="true"
+                custom:indicator_visibility="visible"
+                custom:pager_animation_span="1100"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:layout_below="@+id/placeholder"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp" />
+
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/custom_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                custom:selected_color="#0095BF"
+                custom:unselected_color="#55333333"
+                custom:selected_drawable="@drawable/bird"
+                custom:shape="oval"
+                custom:selected_padding_left="5dp"
+                custom:selected_padding_right="5dp"
+                custom:unselected_padding_left="5dp"
+                custom:unselected_padding_right="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                custom:selected_width="6dp"
+                custom:selected_height="6dp"
+                custom:unselected_width="6dp"
+                custom:unselected_height="6dp"
+                android:layout_marginBottom="20dp" />
+
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/custom_indicator2"
+                style="@style/AndroidImageSlider_Corner_Oval_Orange"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"/>
+
+
+            <!--*********CATEGORIES***********-->
+
+
+            <LinearLayout
+                android:id="@+id/categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/slider"
+                android:background="@drawable/homepage_bg"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:weightSum="4">
+
+
+                    <LinearLayout
+                        android:id="@+id/tshirt0"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/fresh"
+                            android:onClick="freshcategoryOnClick"/>
+
+                        <customfonts.MyTextViewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:src="@drawable/fresh"
+                            android:text="@string/fresh"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@color/divider"
+                        android:gravity="center" />
+
+
+                    <LinearLayout
+                        android:id="@+id/jeans0"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jeans"
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/groceries"
+
+                            />
+
+                        <customfonts.MyTextViewBold
+                            android:id="@+id/jeans1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:text="@string/grocery"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@color/divider" />
+
+
+                    <LinearLayout
+                        android:id="@+id/shoes0"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        android:layout_weight="3.43">
+
+                        <ImageView
+                            android:id="@+id/shoes"
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/homecare"
+
+                            />
+
+                        <customfonts.MyTextViewBold
+                            android:id="@+id/shoes1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:text="@string/home_care"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@color/divider" />
+
+
+                    <LinearLayout
+                        android:id="@+id/slippers0"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/slippers"
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/personal" />
+
+                        <customfonts.MyTextViewBold
+                            android:id="@+id/slippers1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:text="@string/personal"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:weightSum="4">
+
+
+                    <LinearLayout
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.01"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/shirt"
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/convenience" />
+
+                        <customfonts.MyTextViewBold
+                            android:id="@+id/shirt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:text="@string/convenience"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginTop="6dp"
+                        android:background="@color/divider" />
+
+
+                    <LinearLayout
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.08"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/cat_icon"
+                            android:layout_height="@dimen/cat_icon"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="6dp"
+                            android:src="@drawable/restaurant" />
+
+                        <customfonts.MyTextViewBold
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:letterSpacing="0.03"
+                            android:text="@string/restaurant"
+                            android:textColor="@color/text"
+                            android:textSize="@dimen/categories"
+                            custom:targetApi="lollipop" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/offers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/categories"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/homepage_bg"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/marginleft_right"
+                        android:background="@drawable/bookmark1"
+                        custom:ignore="RtlHardcoded" />
+
+                    <customfonts.MyTextViewMedium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/marginleft_right"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="@string/shops_near_you"
+                        android:textColor="@color/sub_text"
+                        android:textSize="@dimen/title"
+                        custom:ignore="RtlHardcoded" />
+                </LinearLayout>
+
+                <com.shopper.shopper.ExpandableHeightListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    android:background="#fff"
+                    android:scrollbars="none"/>
+
+                <customfonts.MyTextViewMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/marginleft_right"
+                    android:gravity="right"
+                    android:paddingBottom="16dp"
+                    android:text="@string/view_more"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/title"
+                    custom:ignore="RtlHardcoded" />
+
+            </LinearLayout>
+
+
+            <include layout="@layout/a_homepage_toolbar" />
+
+
+        </RelativeLayout>
+
+    </com.shopper.shopper.ObservableScrollView>
+
+</LinearLayout>
+

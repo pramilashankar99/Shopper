@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopper</string>
+    <string name="fresh">Fresh</string>
+    <string name="view_more">View More</string>
+    <string name="shops_near_you">Shops Near You</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="convenience">Convenience</string>
+    <string name="personal">Personal</string>
+    <string name="home_care">Home Care</string>
+    <string name="grocery">Grocery</string>
+</resources>

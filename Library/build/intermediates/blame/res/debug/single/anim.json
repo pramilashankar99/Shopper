@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
+        "source": "/Users/Pramil/.android/build-cache/db040c0f55b0f8f34ca87d8b5b2c7258d084e936/output/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/Users/Pramil/.android/build-cache/db040c0f55b0f8f34ca87d8b5b2c7258d084e936/output/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/Users/Pramil/.android/build-cache/db040c0f55b0f8f34ca87d8b5b2c7258d084e936/output/res/anim/fab_in.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/Users/Pramil/.android/build-cache/db040c0f55b0f8f34ca87d8b5b2c7258d084e936/output/res/anim/snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

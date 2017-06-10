@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Pramil/Desktop/Android/Shopper/Library/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/Users/Pramil/.android/build-cache/5ac7d403bce5c71b0b06ab13d052e7d3a4ee32bb/output/res/values-h720dp/values-h720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 66,
+                        "endOffset": 345
+                    }
+                }
+            }
+        ]
+    }
+]
